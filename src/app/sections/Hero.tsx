@@ -9,6 +9,7 @@ const Hero = () => {
       </h1>
       <Image
         src={truckImg}
+        priority={true}
         width={969}
         height={690}
         alt="truck"

@@ -1,3 +1,5 @@
+import { bigImg, dangerImg, frigoImg } from "../../../public";
+
 const navItems = ["Начало", "За нас", "Услуги", "Цени", "Как работи"];
 
 const summary =
@@ -16,4 +18,22 @@ const solutionItems = [
   "Спазване на изискванията за качество и стандарти на клиентите и/или на техни специфични изисквания.",
 ];
 
-export { navItems, summary, solutionHeader, solutionItems };
+const services = [
+  {
+    src: dangerImg,
+    heading: "Опасни товари (ADR)",
+    alt: "Dangerous cargo",
+  },
+  {
+    src: frigoImg,
+    heading: "Хладилен транспорт",
+    alt: "Worker",
+  },
+  {
+    src: bigImg,
+    heading: "Извънгабаритни товари",
+    alt: "Harbour",
+  },
+];
+
+export { navItems, summary, solutionHeader, solutionItems, services };
