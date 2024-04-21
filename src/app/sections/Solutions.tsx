@@ -4,7 +4,7 @@ import { solutionItems } from "../constants";
 const Solutions = () => {
   return (
     <section className="max-sm:text-sm">
-      <h2 className="font-grotesk text-4xl md:text-5xl font-semibold ">
+      <h2 className="font-grotesk text-2xl sm:text-4xl lg:text-5xl xl:text-6xl font-semibold ">
         Решения
       </h2>
       <Agenda />
