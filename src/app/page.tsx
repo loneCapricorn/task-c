@@ -1,4 +1,4 @@
-import { Contact, Header, Pros, Services, Solutions } from "../sections";
+import { Contact, Header, Pros, Services, Solutions } from "./sections";
 
 const Home = () => {
   return (
