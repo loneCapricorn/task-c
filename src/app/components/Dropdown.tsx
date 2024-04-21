@@ -2,7 +2,7 @@ import { navItems } from "../constants";
 
 const Dropdown = () => {
   return (
-    <div className="flex flex-col gap-10 absolute w-full top-14 bg-main-white">
+    <div className="flex flex-col gap-10 absolute w-full top-14 bg-main-white py-5">
       <nav className="flex flex-col gap-5 items-start">
         {navItems.map((item, index) => (
           <a
