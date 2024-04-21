@@ -13,6 +13,21 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        grotesk: ["Space Grotesk", "sans-serif"],
+      },
+
+      colors: {
+        "main-white": "#F5F5F5",
+        "dark-blue": {
+          DEFAULT: "#01303A",
+          400: "#7F8C89",
+          700: "#394649",
+          800: "#3C4A47",
+          900: "#083C2F",
+        },
+        "cta-green": "#E7F874",
+      },
     },
   },
   plugins: [],
