@@ -2,7 +2,7 @@ import { Contact, Header, Hero, Pros, Services, Solutions } from "./sections";
 
 const Home = () => {
   return (
-    <main className="flex flex-col items-center gap-14 w-[85%] mx-auto">
+    <main className="flex flex-col items-center gap-14 w-[85%] max-container mx-auto">
       <Header />
       <Hero />
       <Solutions />
