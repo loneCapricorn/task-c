@@ -1,12 +1,10 @@
-import { Contact, Header, Pros, Services, Solutions } from "./sections";
+import { Contact, Header, Pros, Services, Hero } from "./sections";
 
 const Home = () => {
   return (
-    <main className="flex flex-col items-center gap-40">
+    <main className="flex flex-col items-center">
       <Header />
-      <section>
-        <Solutions />
-      </section>
+      <Hero />
       <section>
         <Pros />
       </section>
