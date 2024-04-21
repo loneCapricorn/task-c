@@ -14,7 +14,7 @@ const Header = () => {
   };
 
   return (
-    <header className="flex justify-between items-center relative w-[85%] my-4 lg:mt-12 font-medium">
+    <header className="flex justify-between items-center relative w-full my-4 md:mt-12 font-medium">
       <div className="font-grotesk text-[29.65px] font-bold leading-[140%] tracking-[-0.62px]">
         Website
       </div>
